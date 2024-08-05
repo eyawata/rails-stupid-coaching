@@ -1,0 +1,13 @@
+<div class="answer">
+  <div class="m-3 p-2 bg-body-secondary">
+    <p class="fw-semibold fst-italic"><%= params[:question] %></p>
+    <p> - You</p>
+  </div>
+  <div class="m-3 p-2 bg-primary-subtle text-primary-emphasis">
+    <p class="fw-semibold fst-italic"><%= @answer %></p>
+    <p> - Your Coach</p>
+  </div>
+  <span class="m-3 p-2">
+    <%= link_to "Ask a new question", ask_path %>
+  </span>
+</div>
